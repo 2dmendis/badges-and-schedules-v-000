@@ -1,12 +1,12 @@
 # Write your code here.
 def badge_maker(name)
-  badge = "Hello, my name is #{name}"
+  badge = "Hello, my name is #{name}."
 end 
 
 def batch_badge_creator(array)
   new_array = []
   array.each do |i|
-    new_array << "Hello my name is #{i}"
+    new_array << "Hello my name is #{i}."
   end
   new_array
 end 
